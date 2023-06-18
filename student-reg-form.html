@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        table, tr, td
+        {
+            border: none;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+
+        <table>
+            <tr>
+                <td><label for="id">ID</label></td>
+                <td><input type="text" name="id" id="id"> <br></td>
+            </tr>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" name="name" id="name"> <br></td>
+            </tr>
+            <tr>
+                <td><label for="round">Round</label></td>
+                <td>
+                    <select name="round" id="round">
+                        <option value="R55">Round 55</option>
+                        <option value="R54">Round 54</option>
+                        <option value="R53">Round 53</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td>
+                    <label for="male"><input type="radio" name="gender" id="male"> Male</label>
+                    <label for="female"><input type="radio" name="gender" id="female"> Female</label>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>Education</td>
+                <td>
+                    <input type="checkbox" name="SSC" id="ssc">
+                    <label for="ssc">SSC</label>
+
+                    <input type="checkbox" name="HSC" id="hsc">
+                    <label for="hsc">HSC</label>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+
+
+
+
+    </form>
+</body>
+
+</html>
