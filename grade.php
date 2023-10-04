@@ -22,18 +22,18 @@
     <?php
     $grade = $_POST["gpa"];
     if($grade == "A+"){
-        echo "Outstanding";
+        echo "Outstanding Grade ";
     }elseif($grade == "A"){
-        echo "Very good ";
+        echo "Very good marks ";
     }elseif($grade == "B"){
         echo "Good ";
     }elseif($grade == "C"){
-        echo "Poor ";
+        echo "Poor  marks";
     }elseif($grade == "D"){
         echo " Very Poor";
     }else{
 
-        echo "Fail";
+        echo " You are Fail";
     }
 
 
