@@ -9,6 +9,8 @@
 </head>
 
 <body>
+    <h2>This is discount part</h2>
+    
     <form action="" method="post">
         <label for=""> Enter your value </label>
         <input type="text" name="sels" id="">
