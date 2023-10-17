@@ -18,11 +18,9 @@ class it {
                 echo $br[2]."<br>";
                 echo $br[3]."<br>";
             }
-
         }
     }
 }
 $ot = new it();
 $ot->dhaka("1");
-
 ?>
