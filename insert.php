@@ -11,6 +11,7 @@
             border-collapse: collapse;
         }
         </style>
+    
 </head>
 <body>
     <table>
