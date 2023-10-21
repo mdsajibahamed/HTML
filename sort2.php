@@ -5,3 +5,7 @@ foreach ($name as $k=>$v){
     echo "key is :".$k." value is :".$v."<br>";
 }
 ?>
+
+
+
+
