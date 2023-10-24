@@ -7,7 +7,6 @@ $tamim = [
     "Nepal" => "Kathmandu",
     "America" => "New York",
     "United Kingdom" => "London"
-    
 ];
 ksort($tamim);
 foreach ($tamim as $key => $value) {
