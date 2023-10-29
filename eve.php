@@ -18,7 +18,6 @@ class student {
             echo $brack[2]."<br>";
             echo $brack[3]."<br>";
         }
-
         }
     }
 }
