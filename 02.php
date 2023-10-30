@@ -28,7 +28,6 @@ if(isset($_POST['calc'])){
     echo "<h2>Minimum value = " . $minVal . "</h2>";
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
