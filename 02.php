@@ -13,7 +13,6 @@ if(isset($_POST['calc'])){
     else{
         $maxVal = $tNumber;
     }
-
     if($fNumber <= $sNumber && $fNumber <= $tNumber){
         $minVal = $fNumber;
     }
