@@ -24,5 +24,3 @@ class it {
 $ot = new it();
 $ot->dhaka("1");
 ?>
-
-
