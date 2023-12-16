@@ -28,6 +28,7 @@ if(isset($_POST['calc'])){
 }
 ?>
     
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
