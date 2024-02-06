@@ -13,7 +13,6 @@
         <input type="text" name="sels">
         <input type="submit">
 
-        
     </form>
 <?php
 if (isset($_POST["sels"])){
